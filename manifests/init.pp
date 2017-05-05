@@ -1,6 +1,6 @@
 # == Class: rhn_register
 class rhn_register (
-  $use_classic    = true,
+  $use_classic    = false,
   $profilename    = undef,
   $username       = undef,
   $password       = undef,
